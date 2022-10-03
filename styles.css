@@ -114,10 +114,10 @@ background-color: white;
 #menu
 {
 position: absolute;
-top: 0;
+top: 10%;
 right: 2%;
-max-height: 100%;
-max-width: 11%;
+max-height: 80%;
+max-width: 9%;
 background-color: white;
 border: none;
 }
