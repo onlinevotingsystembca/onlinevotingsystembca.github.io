@@ -1,5 +1,9 @@
+var viewport = document.querySelector("meta[name=viewport]"); viewport.setAttribute("content", viewport.content + ", height=" + window.innerHeight);
+
 const unames= ["Abheesht","Tanya","Neekita"];
 const passes= ["Fshot11","Anshi53","FoodBurgerSleep"];
+
+var menuf=0;
 
 function login()
 {
@@ -35,24 +39,18 @@ document.getElementById("error").innerHTML= "Password isn't correct";
 
 }
 
+function menuclick()
+{
 
+if(menuf==0)
+{
+menuf=1;
+document.getElementById("menudiv").style.display="block";
+}
+else
+{
+menuf=0;
+document.getElementById("menudiv").style.display="none";
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
